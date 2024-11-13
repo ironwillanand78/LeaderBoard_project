@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LEADERBOARD</h1>
+        <form action="">
+            <input type="text" placeholder="First Name" id="fname">
+            <input type="text" placeholder="Last Name" id="lname">
+            <select name="country" id="country" title="Select your country">
+                <option value="" disabled selected>Select Country</option>
+                <option value="India">India</option>
+                <option value="Luxumberg">Luxumberg</option>
+                <option value="New York">New York</option>
+                <option value="Dubai">Dubai</option>
+                <option value="America">America</option>
+            </select>
+            <input type="text" placeholder="Score" id="score">
+            <button type="button" id="add">Add</button>
+        </form>
+        <div class="headings">
+            <span>Rank</span>
+            <span>Name</span>
+            <span>Country</span>
+            <span>Score</span>
+            <span>Update</span>
+        </div>
+        <div class="dynamic-div">Insert Contestant's Info</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
